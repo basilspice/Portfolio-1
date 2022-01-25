@@ -1,0 +1,83 @@
+# Project Overview
+
+## Project Schedule
+
+This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
+
+You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
+
+|  Day | Deliverable | Status
+|---|---| ---|
+|Day 1| Project Description | Complete
+|Day 1| Wireframes / Priority Matrix / Timeline | Complete
+|Day 3| Core Application Structure (HTML, CSS, etc.) | Incomplete
+|Day 4| MVP & Bug Fixes | Incomplete
+|Day 5| Final Touches | Incomplete
+|Day 6| Present | Incomplete
+
+
+## Project Description
+
+Project 1 is going to be my first shot at creating a portfolio web site for Myself. It will have 4  buttons that you can click at the top that will scroll down the page and take you to the specific spot on the page. The "home" page is going to have my name what i am, and the about me section. As you scroll down you can start to see the projects section, followed by the languages section. At the bottom will be a contact me page where you can submit stuff. As the page gets into tablet size width the project section will grow in size but will still only keep 2 elements side by side. Same with languages. The big change will happen when it goes from tablet to desktop. The projects should then list on their own lines, and the languages will display in blocks of 4. The nav bar on the mobile site is not going to be a fixed position but will have a little button in the bottom right corner to go back to the top of the page. The desktop version will have a fixed nav bar. 
+
+## Wireframes
+
+[My Wireframe](https://wireframepro.mockflow.com/view/MNedeyL86h)
+
+## Time/Priority Matrix 
+
+[My Time/Priority Matrix](https://imgur.com/a/KHGX5yl)
+
+### MVP/PostMVP - 5min
+
+The functionality will then be divided into two separate lists: MVP and PostMVP. Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+
+#### MVP
+
+- About section
+- Nav bars will auto scroll down the page for you
+- Dynamic sizing with big changes going from tablet -> desktop
+- Nav bar will be flexbox, everything else will be grid
+
+#### PostMVP 
+
+- More fledged out nav bar with animations
+- Submittable form with googlesheets
+- Better blend of colors, more researched pallete that work well with each other 
+- Add additional information to the projects and languages, maybe giving a little bit of background or how long I have been doing stuff concerning that specific language or project
+- Functioning footer menu on the mobile that displays once you hit languages to navigate
+## Functional Components
+
+Unless otherwise stated, all time is in hours.
+| Component | Priority | Estimated Time | Time Invested |
+| --- | :---: |  :---: | :---: | 
+| Page Framework | H | 5 |  |  
+| HTML | H | 3 | | 
+| CSS/Flex/Grid Layouts | H | 3 | 
+| Jump to scroll | L | 3 |
+| Nav bar | H | 2 |
+| Fixed nav bar for desktop | M | 2 |
+| Project section (image formatting) | H | 4 |
+| Languages section (copy of projects with different grid layouts) | H | 2 |
+| Contact me | H | 3 |
+| Submittable form | L | 3 
+| Mobile -> Desktop | M | 4 |
+| Total | H | 37 |  | |
+
+## Additional Libraries
+
+
+
+## Code Snippet
+
+<!-- I'm proud of the solution I devised to alternate the sides each project and matching description appears on. The variable 'side' is set to 'left' if the index is even, and 'right' if the index is odd. In order to be able to access the opposite value, the array has 'left' repeated as a third element. This way, the next string over in the array will always be the opposite side. I used string template literals to insert the correct sides as strings directly into the style attributes.
+
+```
+projects.forEach((project, i) => {
+	let sides = ['left','right','left']
+	let side = i % 2 // 0 if image is on left, 1 if on right
+	let $li = $(`<li class="project">
+					<p style="padding-${sides[side+1]}: 10px; margin: 0;">
+						<img src="${project.image}" alt="${project.title}" class="project-img" style="float: ${sides[side]}; margin-${sides[side+1]}: 10px;">
+						...
+``` -->
