@@ -14,10 +14,10 @@
       <!-----NAV BAR---->
       <nav>
         <ul class="nav-links">
-          <a class="scrollTo" href="#aboutMe">Contact</a>
-          <a class="scrollTo" href="#contactMe">Contact</a>
-          <a class="scrollTo" href="#languages">Languages</a>
-          <a class="scrollTo" href="#contactMe">Contact</a>
+          <a href="#aboutMe">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#languages">Languages</a>
+          <a href="#contactMe">Contact</a>
         </ul>
       </nav>
       <h1 class="basil">Basil Breton</h1>
@@ -27,7 +27,7 @@
         Full-Stack Developer <br />
         <span class="in-training">*In-Training*</span>
       </h4>
-      <div class="about-">
+      <div id="aboutMe">
         <!-----ABOUT ME SECTION-->
         <h3>About Me</h3>
         <p class="about-me-body">
@@ -58,17 +58,18 @@
       </div>
 
       <!----PROJECTS SECTION---->
+      <div id="projects">
       <h2 class="projects-title">Projects</h2>
 
-      <div class="projects">
-        <section class="projects1">
+      <div id="projectsBody">
+        <section class="project1">
           <img src="https://via.placeholder.com/150" />
           <p>
             Here is info about project number 1. It will most likely contain
             about this much information.
           </p>
         </section>
-        <section class="projects2">
+        <section class="project2">
           <img src="https://via.placeholder.com/150" />
           <p>
             Here is info about project number 2. It will most likely contain
@@ -90,11 +91,12 @@
           </p>
         </section>
       </div>
-
+</div>
       <!-----LANGUAGES SECTION------>
+      <div id="languages">
       <h2 class="languages-title">Languages</h2>
 
-      <div class="languages">
+      <div class="lang">
         <section class="lang1">
           <h6 class="langTitle">HTML</h6>
           <img src="https://via.placeholder.com/75" />
@@ -131,24 +133,65 @@
           <h6 class="langTitle">LMNOP</h6>
           <img src="https://via.placeholder.com/75" />
         </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+        <section class="lang9">
+          <h6 class="langTitle">LMNOP</h6>
+          <img src="https://via.placeholder.com/75" />
+        </section>
+      
+      
       </div>
+      
+      </div>
+
 
       <!-----CONTACT ME-->
       <div id="contactMe">
         <h2>Contact Me</h2>
-        <body>
+        <p class="contactBody">
           Like something that you saw?<br />
           Interested in collaborating on a project?<br />
           Searching for a Dev?<br />
           Please fill out the form below so we can get in touch!
-          <form>
+          <form id="form">
             Name:<input type="text" /><br>
             Phone:<input type="text" /><br>
             Email:<input type="text"/><br>
             Desc:<input type="text"/><br>
             <input type="submit" value="Submit Form" />
           </form>
-        </body>
+        </p>
       </div>
     </div>
 
