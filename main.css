@@ -129,3 +129,6 @@ p {
      justify-content: center;
      text-align: center;
  }
+form {
+    text-align: center;
+}
