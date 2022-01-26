@@ -20,7 +20,7 @@
 }
 
 
-.nav-links li a {
+.nav-links li a, .scrollTo{
     transition: all 0.3s ease 0s;
     text-decoration: none;
     color: black;
@@ -34,10 +34,19 @@
 
 }
 
+.scrollTo:hover {
+    color: lightslategray;
+}
+
 button {
     background-color: rgba(47, 79, 79, 1);
     border: none;
     cursor: pointer;
+    font-weight: 700px;
+    font-size: 1.1em
+}
+button:hover {
+    color: lightslategray;
 }
 
 /* button:hover {
@@ -51,6 +60,7 @@ h1 {
 
 h2 {
     font-size: 2em;
+    padding: 20px
 
 }
 
@@ -109,4 +119,13 @@ p {
      display: grid;
      grid-template-columns: 1fr 1fr 1fr;
      grid-template-rows: 1fr 1fr 1fr;
+     
+ }
+
+.langTitle {
+    margin: 10px 0px 5px 0px;
+}
+ .contact-me {
+     justify-content: center;
+     text-align: center;
  }
