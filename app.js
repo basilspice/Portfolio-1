@@ -1,6 +1,6 @@
 console.log('im working')
 
-
+//Tutorial for Scroll to click that I used (http://html-tuts.com/scroll-to-section-jquery/)
 // $('.scrollTo').click(function() {
 // 	let getElem = $(this).attr('href');
 // 	let targetDistance = 20;
