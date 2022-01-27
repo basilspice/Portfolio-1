@@ -12,7 +12,7 @@ $("#langNav").onclick = function () {
 $("#projectsNav").onclick = function () {
   $("html, body").animate(
     {
-      scrollTop: $(".projects-title").offset().top,
+      scrollTop: $("#projects").offset().top,
     },
     2000
   );

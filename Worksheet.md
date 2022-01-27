@@ -70,14 +70,56 @@ Unless otherwise stated, all time is in hours.
 
 ## Code Snippet
 
-<!-- I'm proud of the solution I devised to alternate the sides each project and matching description appears on. The variable 'side' is set to 'left' if the index is even, and 'right' if the index is odd. In order to be able to access the opposite value, the array has 'left' repeated as a third element. This way, the next string over in the array will always be the opposite side. I used string template literals to insert the correct sides as strings directly into the style attributes.
+## HTML
+      <!-- <nav>
+        <ul class="nav-links">
+          <a href="#aboutMe">About Me</a>
+          <a href="#projects">Projects</a>
+          <a href="#languages">Languages</a>
+          <a href="#contactMe">Contact</a>
+        </ul>
+      </nav> -->
 
-```
-projects.forEach((project, i) => {
-	let sides = ['left','right','left']
-	let side = i % 2 // 0 if image is on left, 1 if on right
-	let $li = $(`<li class="project">
-					<p style="padding-${sides[side+1]}: 10px; margin: 0;">
-						<img src="${project.image}" alt="${project.title}" class="project-img" style="float: ${sides[side]}; margin-${sides[side+1]}: 10px;">
-						...
-``` -->
+	  <!-- $("#langNav").onclick = function () {
+  $("html, body").animate(
+    {
+      scrollTop: $(".langTitle").offset().top,
+    },
+    2000
+  );
+};
+## JAVASCRIPT
+$("#langNav").onclick = function () {
+  $("html, body").animate(
+    {
+      scrollTop: $(".langTitle").offset().top,
+    },
+    2000
+  );
+};
+
+$("#projectsNav").onclick = function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#projects").offset().top,
+    },
+    2000
+  );
+};
+$("#languages").onclick = function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#languages").offset().top,
+    },
+    2000
+  );
+};
+
+$("#contactMe").onclick = function () {
+  $("html, body").animate(
+    {
+      scrollTop: $("#contactMe").offset().bottom,
+    },
+    2000
+  );
+};

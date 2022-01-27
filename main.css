@@ -67,10 +67,7 @@
   justify-items: center;
   font-size: 2em;
 }
-.langTitle {
-  justify-items: start;
-  color: black;
-}
+
 @media screen and (max-width: 1023px) {
   .projectTitle {
     display: none;
@@ -124,34 +121,41 @@ h1 {
   margin: 60px 20px 40px 20px;
   font-size: 4em;
   padding-top: 250px;
+  
+  
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 2.5em;
   padding: 200px 20px 20px 20px;
+  color: lightslategrey;
 }
 
 h3 {
   font-size: 1.75em;
-  padding-top: 200px
+  padding-top: 200px;
+  color: lightslategrey;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 2.5em;
   margin-bottom: 200px;
+  color: lightslategrey;
 }
 
-/* h5 {
-
+.projectTitle {
+font-size: 1.5em;
 }
 
-h6 {
+.langTitle {
+font-size: .75em;
+}
 
-} */
 
 .in-training {
   font-size: 0.75em;
   font-weight: 400px;
+  color: black;
 }
 
 .about-me-body {
