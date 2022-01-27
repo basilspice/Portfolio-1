@@ -3,7 +3,7 @@ console.log("im working");
 $("#langNav").onclick = function () {
   $("html, body").animate(
     {
-      scrollTop: $(".langTitle").offset().top,
+      scrollTop: $("#langTitle").offset().top,
     },
     2000
   );
