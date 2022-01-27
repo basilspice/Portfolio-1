@@ -27,13 +27,13 @@ $("#languages").onclick = function () {
 };
 
 $("#contactMe").onclick = function () {
-	$("html, body").animate(
-	  {
-		scrollTop: $("#contactMe").offset().bottom,
-	  },
-	  2000
-	);
-  };
+  $("html, body").animate(
+    {
+      scrollTop: $("#contactMe").offset().bottom,
+    },
+    2000
+  );
+};
 
 //Source for nav bar scroll function (http://jsfiddle.net/WxJLx/2/)
 //Tutorial for Scroll to click that I used but never worked (http://html-tuts.com/scroll-to-section-jquery/)
