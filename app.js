@@ -20,7 +20,7 @@ $("#projectsNav").onclick = function () {
 $("#languages").onclick = function () {
   $("html, body").animate(
     {
-      scrollTop: $(".#languages").offset().top,
+      scrollTop: $("#languages").offset().top,
     },
     2000
   );
@@ -35,7 +35,7 @@ $("#contactMe").onclick = function () {
 	);
   };
 
-
+//Source for nav bar scroll function (http://jsfiddle.net/WxJLx/2/)
 //Tutorial for Scroll to click that I used but never worked (http://html-tuts.com/scroll-to-section-jquery/)
 // $('.scrollToLanguages').click(function() {
 // 	let getElem = $(this).attr('href');
