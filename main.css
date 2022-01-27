@@ -3,14 +3,12 @@
     font-size: 2em;
     position: sticky;
     top: 0;
-    background-color: rgba(47, 79, 79, 0);
+    background-color: rgba(47, 79, 79, 0)
 
   }
-  .nav-links {
-    
-  }
+ 
   h1 {
-    color: red;
+    color: black;
   }
   #projects {
     justify-items: start;
@@ -90,7 +88,7 @@
 }
 
 * {
-  background-color: lightslategrey;
+  background-color: darkslategrey;
   box-sizing: border-box;
 }
 .page {
@@ -117,15 +115,14 @@ a,
 #contactMeNav {
   transition: all 0.3s ease 0s;
   text-decoration: none;
-  color: black;
+  color: lightslategrey;
   font-weight: 700px;
   font-size: 1.1em;
 }
 
 .nav-links a:hover {
-  color: darkslategrey;
-  text-shadow: 1px 1px black;
-}
+  color: lightgrey;
+ }
 
 button {
   background-color: rgba(47, 79, 79, 1);
