@@ -78,81 +78,81 @@ Unless otherwise stated, all time is in hours.
         </ul>
       </nav>
 
-<!----MEDIA QUERY---->
+		<!----MEDIA QUERY---->
 
     	@media screen and (min-width: 1024px) {
 
-nav {
-font-size: 2em;
-position: sticky;
-top: 0;
-background-color: rgba(47, 79, 79, 0);
-}
+		nav {
+		font-size: 2em;
+		position: sticky;
+		top: 0;
+		background-color: rgba(47, 79, 79, 0);
+		}
 
-<!----CSS---->
+		<!----CSS---->
 
-.nav-links {
-display: flex;
-flex-direction: inline-block;
-justify-content: space-evenly;
-list-style: none;
-font-size: 1.25;
-font-weight: 500;
-text-decoration: none;
-cursor: pointer;
-padding: 0;
-}
+		.nav-links {
+		display: flex;
+		flex-direction: inline-block;
+		justify-content: space-evenly;
+		list-style: none;
+		font-size: 1.25;
+		font-weight: 500;
+		text-decoration: none;
+		cursor: pointer;
+		padding: 0;
+		}
 
-.nav-links ul,
-a,
-#aboutNav,
-#projectsNav,
-#langNav,
-#contactMeNav {
-transition: all 0.3s ease 0s;
-text-decoration: none;
-color: lightslategrey;
-font-weight: 700px;
-font-size: 1.1em;
-}
+		.nav-links ul,
+		a,
+		#aboutNav,
+		#projectsNav,
+		#langNav,
+		#contactMeNav {
+		transition: all 0.3s ease 0s;
+		text-decoration: none;
+		color: lightslategrey;
+		font-weight: 700px;
+		font-size: 1.1em;
+		}	
 
-.nav-links a:hover {
-color: lightgrey;
-}
+		.nav-links a:hover {
+		color: lightgrey;
+		}		
 
-<!----JAVASCRIPT---->
+		<!----JAVASCRIPT---->
 
-$("#langNav").onclick = function () {
-$("html, body").animate(
-{
-scrollTop: $(".langTitle").offset().top,
-},
-2000
-);
-};
+		$("#langNav").onclick = function () {
+		$("html, body").animate(
+		{
+		scrollTop: $(".langTitle").offset().top,
+		},
+		2000
+		);
+		};
 
-$("#projectsNav").onclick = function () {
-  $("html, body").animate(
-    {
-      scrollTop: $("#projects").offset().top,
-    },
-    2000
-  );
-};
-$("#languages").onclick = function () {
-$("html, body").animate(
-{
-scrollTop: $("#languages").offset().top,
-},
-2000
-);
-};
+		$("#projectsNav").onclick = function () {
+  		$("html, body").animate(
+    	{
+      	scrollTop: $("#projects").offset().top,
+    	},
+    	2000
+  		);
+		};
+		$("#languages").onclick = function () {
+		$("html, body").animate(
+		{
+		scrollTop: $("#languages").offset().top,
+		},
+		2000
+		);
+		};
 
-$("#contactMe").onclick = function () {
-$("html, body").animate(
-{
-scrollTop: $("#contactMe").offset().bottom,
-},
-2000
-);
-};
+		$("#contactMe").onclick = function () {
+		$("html, body").animate(
+		{
+	scrollTop: $("#contactMe").offset().bottom,
+		},
+		2000
+		);
+		};
