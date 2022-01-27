@@ -71,23 +71,53 @@ Unless otherwise stated, all time is in hours.
 ## Code Snippet
 
 ## HTML
-      <!-- <nav>
+      <!-----NAV BAR---->
+      <nav>
         <ul class="nav-links">
           <a href="#aboutMe">About Me</a>
           <a href="#projects">Projects</a>
           <a href="#languages">Languages</a>
           <a href="#contactMe">Contact</a>
         </ul>
-      </nav> -->
+      </nav>
 
-	  <!-- $("#langNav").onclick = function () {
-  $("html, body").animate(
-    {
-      scrollTop: $(".langTitle").offset().top,
-    },
-    2000
-  );
-};
+## MEDIA CSS
+@media screen and (min-width: 1024px) {
+  nav {
+    font-size: 2em;
+    position: sticky;
+    top: 0;
+    background-color: rgba(47, 79, 79, 0);
+  }
+## CSS
+.nav-links {
+  display: flex;
+  flex-direction: inline-block;
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1.25;
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav-links ul,
+a,
+#aboutNav,
+#projectsNav,
+#langNav,
+#contactMeNav {
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+  color: lightslategrey;
+  font-weight: 700px;
+  font-size: 1.1em;
+}
+
+.nav-links a:hover {
+  color: lightgrey;
+}
 ## JAVASCRIPT
 $("#langNav").onclick = function () {
   $("html, body").animate(
