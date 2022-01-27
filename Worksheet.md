@@ -68,15 +68,15 @@ Unless otherwise stated, all time is in hours.
 
 ## Code Snippet
 
-    <!-----NAV BAR---->
-     <nav>
+    	<!-----NAV BAR---->
+     	<nav>
         <ul class="nav-links">
           <a href="#aboutMe">About Me</a>
           <a href="#projects">Projects</a>
           <a href="#languages">Languages</a>
           <a href="#contactMe">Contact</a>
         </ul>
-     </nav>
+     	</nav>
 
     	<!----MEDIA QUERY---->
 
