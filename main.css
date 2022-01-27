@@ -1,6 +1,6 @@
 @media screen and (min-width: 1024px) {
   h1 {
-    color: red;
+    color: black;
   }
   #projects {
     justify-items: start;
@@ -38,7 +38,7 @@
     float: left;
   }
   .projectText {
-    color: red;
+    color: black;
     margin: 0px;
     padding: 0px;
     justify-self: end;
@@ -65,7 +65,7 @@
 }
 .langTitle {
   justify-items: start;
-  color: red;
+  color: black;
 }
 
 @media screen and (max-width: 1023px) {
