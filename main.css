@@ -1,6 +1,14 @@
 @media screen and (min-width: 1024px) {
+  nav {
+    display: inline-block;
+    position: sticky;
+    top: 0;
+    }
+  .nav-links {
+    font-size: 2em;
+  }
   h1 {
-    color: black;
+    color: red;
   }
   #projects {
     justify-items: start;
@@ -46,9 +54,7 @@
   .projectTitle {
     margin: 0 0 5% 0;
   }
-  .nav-links {
-    font-size: 2em;
-  }
+ 
 }
 .about-me-body {
   text-indent: 10%;
