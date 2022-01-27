@@ -103,12 +103,7 @@ Unless otherwise stated, all time is in hours.
     	padding: 0;
     	}
 
-    	.nav-links ul,
-    	a,
-    	#aboutNav,
-    	#projectsNav,
-    	#langNav,
-    	#contactMeNav {
+    	.nav-links ul, a {
     	transition: all 0.3s ease 0s;
     	text-decoration: none;
     	color: lightslategrey;
