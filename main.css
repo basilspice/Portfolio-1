@@ -68,6 +68,10 @@
   justify-items: center;
   font-size: 2em;
 }
+
+.submitButton {
+  margin: 0 50% 0 50%;
+}
 /* TABLET */
 @media screen and (max-width: 1023px) {
   .projectTitle {
@@ -82,7 +86,9 @@
     grid-template-rows: 1fr 1fr 1fr;
     font-size: 1.5em;
   }
-  
+  .submitButton {
+    margin: 0 35% 0 3%;
+  }
 }
 /* SMARTPHONE */
 @media screen and (max-width: 766px) {
@@ -94,6 +100,9 @@
   }
   nav {
     font-size: 1.1em;
+  }
+  .submitButton {
+    margin: 0 30% 0 30%;
   }
 }
 * {
@@ -228,6 +237,7 @@ input {
 }
 .submitButton {
   font-size: 1.4em;
+  margin: 0 20% 0 20%;
 }
 .submitButton:hover {
   cursor: pointer;
