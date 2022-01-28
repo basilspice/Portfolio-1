@@ -1,7 +1,7 @@
 /* DESKTOP */
 @media screen and (min-width: 1024px) {
   nav {
-    font-size: 2em;
+    font-size: 3em;
     position: sticky;
     top: 0;
     background-color: rgba(47, 79, 79, 0);
@@ -74,7 +74,7 @@
     display: none;
   }
   nav {
-    font-size: 1.5em
+    font-size: 2em;
   }
   #lang {
     display: grid;
@@ -91,6 +91,9 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     font-size: 1.5em;
+  }
+  nav {
+    font-size: 1.1em;
   }
 }
 * {

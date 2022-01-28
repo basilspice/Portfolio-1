@@ -1,18 +1,20 @@
 console.log("im working");
 
-$("#langNav").onclick = function () {
+//
+
+$("#aboutMe").onclick = function () {
   $("html, body").animate(
     {
-      scrollTop: $("#langTitle").offset().top,
+      scrollTop: $("aboutMe").offset().top,
     },
     2000
   );
 };
 
-$("#projectsNav").onclick = function () {
+$("#projects").onclick = function () {
   $("html, body").animate(
     {
-      scrollTop: $("#projects").offset().top,
+      scrollTop: $("projects").offset().top,
     },
     2000
   );
@@ -20,7 +22,7 @@ $("#projectsNav").onclick = function () {
 $("#languages").onclick = function () {
   $("html, body").animate(
     {
-      scrollTop: $("#languages").offset().top,
+      scrollTop: $("languages").offset().top,
     },
     2000
   );
@@ -29,7 +31,7 @@ $("#languages").onclick = function () {
 $("#contactMe").onclick = function () {
   $("html, body").animate(
     {
-      scrollTop: $("#contactMe").offset().bottom,
+      scrollTop: $("contactMe").offset().bottom,
     },
     2000
   );
