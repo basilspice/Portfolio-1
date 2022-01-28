@@ -98,8 +98,12 @@
   text-decoration: none;
   cursor: pointer;
   padding: 0;
+  
 }
-
+nav {
+  position: sticky;
+  top: 0;
+}
 .nav-links ul, a{
   transition: all 0.3s ease 0s;
   text-decoration: none;
@@ -199,6 +203,7 @@ form {
   margin: 0px 0px 500px 0px;
 }
 
-.tab {
-  margin-left: 10px;
+footer {
+  color: lightslategrey;
+  font-size: 1.5em;
 }
