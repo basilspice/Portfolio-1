@@ -12,7 +12,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 | Day 1 | Wireframes / Priority Matrix / Timeline      | Complete   |
 | Day 3 | Core Application Structure (HTML, CSS, etc.) | Complete   |
 | Day 4 | MVP & Bug Fixes                              | Complete   |
-| Day 5 | Final Touches                                | Incomplete |
+| Day 5 | Final Touches                                | Completeish |
 | Day 6 | Present                                      | Incomplete |
 
 ## Project Description
@@ -60,9 +60,9 @@ Unless otherwise stated, all time is in hours.
 | Project section (image formatting) | H | 4 | 3 |
 | Languages section (copy of projects with different grid layouts) | H | 2 | 3 |
 | Contact me | H | 3 | 1 |
-| Submittable form | L | 3 | 0
-| Mobile -> Desktop | M | 4 | 6 |
-| Total | H | 37 | 35 (as of 1:25 1/27) | |
+| Submittable form | L | 3 | 2
+| Mobile -> Desktop | M | 4 | 8 |
+| Total | H | 37 | 39 | |
 
 ## Additional Libraries
 
