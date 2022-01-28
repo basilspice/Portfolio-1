@@ -1,3 +1,4 @@
+/* DESKTOP */
 @media screen and (min-width: 1024px) {
   nav {
     font-size: 2em;
@@ -67,11 +68,24 @@
   justify-items: center;
   font-size: 2em;
 }
-
+/* TABLET */
 @media screen and (max-width: 1023px) {
   .projectTitle {
     display: none;
   }
+  nav {
+    font-size: 1.5em
+  }
+  #lang {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    font-size: 1.5em;
+  }
+  
+}
+/* SMARTPHONE */
+@media screen and (max-width: 766px) {
   #lang {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -79,7 +93,6 @@
     font-size: 1.5em;
   }
 }
-
 * {
   background-color: darkslategrey;
   box-sizing: border-box;
@@ -91,9 +104,9 @@
 .nav-links {
   display: flex;
   flex-direction: inline-block;
-  justify-content: space-evenly;
+  justify-content: space-around;
   list-style: none;
-  font-size: 1.25;
+  font-size: .75em;
   font-weight: 500;
   text-decoration: none;
   cursor: pointer;
@@ -191,6 +204,8 @@ p {
 .langTitle {
   margin: 10px 0px 5px 0px;
 }
+
+
 .contactBody {
   justify-content: center;
   text-align: center;
