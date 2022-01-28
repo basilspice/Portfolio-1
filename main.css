@@ -215,10 +215,24 @@ p {
   font-size: 2em;
 }
 form {
-  text-align: center;
+  display: grid;
+  margin: 10% 30% 10% 30%;
+  font-size: 1.3em;
+  
 }
 #contactMe {
   margin: 0px 0px 500px 0px;
+}
+input {
+  background-color: lightslategray;
+}
+.submitButton {
+  font-size: 1.4em;
+}
+.submitButton:hover {
+  cursor: pointer;
+  font-size: 1.45em;
+  background-color: rgb(123, 142, 160);
 }
 
 footer {
