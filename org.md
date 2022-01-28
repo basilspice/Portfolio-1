@@ -24,20 +24,21 @@ div  #aboutMe
 PROJECTS 
 
 div #projects
-    section project1 (etc)
-    .projectTitle
-    .projectText
+    <div> #projectsBody
+    <section> .project1 (etc)
+    <h5>.projectTitle
+    <p>.projectText
 
 LANGUAGES
 
 div #languages
-    .languages-title
-    div #lang
-    .langTitle
+   <h2> .languages-title
+    <div> #lang
+    <h6>.langTitle
 
 CONTACT ME
 
 div #contactMe
-    .contactBody
+    <p>.contactBody
     #form
 
