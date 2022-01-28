@@ -16,20 +16,27 @@ NAV BAR
     #languages
     #contactMe
 
-ABOUT ME SECTION
+ABOUT ME 
 
-div id #aboutMe
+div  #aboutMe
     <p> .about-me-body
 
-div id #projects
+PROJECTS 
+
+div #projects
     section project1 (etc)
     .projectTitle
     .projectText
 
-div id #languages
+LANGUAGES
+
+div #languages
     .languages-title
-    div id #lang
+    div #lang
     .langTitle
+
+CONTACT ME
+
 div #contactMe
     .contactBody
     #form
